@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Pierce County Utilities",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -185,7 +185,7 @@ export const botConfig = {
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
-    robFailJailTime: 3600000, 
+    robFailJailTime: 520, 
   },
 
   // =========================
@@ -201,10 +201,10 @@ export const botConfig = {
   // =========================
   tickets: {
     // Category ID where new tickets are created (null = no forced category).
-    defaultCategory: null,
+    defaultCategory: 1515459801503502458,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [],
+    supportRoles: [1512350714200981594,1512350711982063756],
 
     // Priority options users/staff can assign.
     priorities: {
@@ -229,8 +229,8 @@ export const botConfig = {
         label: "High",
       },
       urgent: {
-        emoji: "🚨",
-        color: "#E91E63",
+        emoji: "📌",
+        color: "#1c4ba4",
         label: "Urgent",
       },
     },
@@ -239,10 +239,10 @@ export const botConfig = {
     defaultPriority: "none",
 
     // Category ID where closed tickets are archived.
-    archiveCategory: null,
+    archiveCategory: 1515460761613238343,
 
     // Channel ID where ticket logs are sent.
-    logChannel: null,
+    logChannel: 1515460958938599444,
   },
 
   // =========================
@@ -264,7 +264,7 @@ export const botConfig = {
     maximumDuration: 2592000000, 
 
     // Role IDs allowed to host giveaways.
-    allowedRoles: [],
+    allowedRoles: [1512350712535846992,1512350711982063756],
 
     // Role IDs that bypass giveaway restrictions.
     bypassRoles: [],
@@ -359,13 +359,13 @@ export const botConfig = {
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
-      "Welcome {user} to {server}! We now have {memberCount} members!",
+      "👋 Welcome {user} to {server}! We now have {memberCount} members!",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1512359694495383583,
     // Channel ID for goodbye messages.
     defaultGoodbyeChannel: null,
   },
