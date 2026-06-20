@@ -169,7 +169,6 @@ export async function createInitialHelpMenu(client) {
 
     const supportButton = new ButtonBuilder()
         .setLabel("Contact iiTzAce for support")
-        .setURL("")
         .setStyle(ButtonStyle.grey);
 
     const touchpointButton = new ButtonBuilder()
